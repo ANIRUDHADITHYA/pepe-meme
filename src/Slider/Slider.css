@@ -1,0 +1,22 @@
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-button-prev {
+    font-size: 20px;
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    background: #003a62;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 1);
+    backdrop-filter: blur(8.8px);
+    -webkit-backdrop-filter: blur(8.8px);
+    border: 1px solid rgba(40, 40, 40, 0.55);
+    color: var(--yellow-color);
+}
